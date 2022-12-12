@@ -1,4 +1,4 @@
-console.log("--------------------------------------- Function Assignment ---------------------------------------");
+console.log("--------------------------------------- Function Assignment No. 1  ---------------------------------------");
 console.log("1.");
 function javaScript() {
     console.log("I Love JavaScript");
@@ -36,3 +36,13 @@ function addThreeValues(val1,val2,val3) {
 }
 addThreeValues(10.23, 600, 40);
 addThreeValues("Hello","Good", "Morning");
+
+
+console.log("--------------------------------------- Function Assignment No. 2  ---------------------------------------");
+
+function bankDetails(bankName, accountNum, location, pinCode) {
+    console.log("Bank Details:","Bank Name:",bankName, "Account No:",accountNum, "Location:",location, "Pincode:", pinCode);   
+}
+bankDetails("CITY Bank",3456782345,'Pune',431202);
+bankDetails("Axis Bank",7856782345,'Mumbai',441202);
+bankDetails("HDFC Bank",8956782345,'Pune',631202,"Open");
