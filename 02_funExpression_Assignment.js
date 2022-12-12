@@ -44,19 +44,19 @@ console.log(
   "---------------------------------------------------------------------------------------------------------"
 );
 console.log("5.");
-var string = "JS the most popular language";
-console.log("A. Total character available in the string:", string.length);
+var str = "JS the most popular language";
+console.log("A. Total character available in the string:",str.length);
 
-console.log("B. Char at index 6:", string.charAt(6));
+console.log("B. Character at index 6:", str.charAt(6));
 
-console.log("C. Char at index 11:", string.charAt(11));
+console.log("C. Character at index 11:", str.charAt(11));
 
-var total = string.length;
-console.log("D. Last Character is:", string.charAt(total - 1));
+var total = str.length;
+console.log("D. Last Character is:", str.charAt(total - 1));
 
-console.log("E. First Character is:", string.charAt());
+console.log("E. First Character is:", str.charAt());
 
-// console.log("F. Square of length of string is:", string.length * string.length);
+console.log("F. Square of length of string is:", str.length * str.length);
 
-var squareOf = string.length;
-console.log("F. Square of length of string is:", squareOf * squareOf);
+// var squareOf = str.length;
+// console.log("F. Square of length of string is:", squareOf * squareOf);
