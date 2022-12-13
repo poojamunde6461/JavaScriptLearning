@@ -44,7 +44,8 @@ console.log(
   "---------------------------------------------------------------------------------------------------------"
 );
 console.log("5.");
-var str = "JS the most popular language";
+var functionExpression = function(){
+  var str = "JS the most popular language";
 console.log("A. Total character available in the string:",str.length);
 
 console.log("B. Character at index 6:", str.charAt(6));
@@ -57,6 +58,10 @@ console.log("D. Last Character is:", str.charAt(total - 1));
 console.log("E. First Character is:", str.charAt());
 
 console.log("F. Square of length of string is:", str.length * str.length);
+
+}
+functionExpression();
+
 
 // var squareOf = str.length;
 // console.log("F. Square of length of string is:", squareOf * squareOf);
