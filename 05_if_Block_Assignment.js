@@ -4,10 +4,10 @@ var eligibleForVote = function(age){
     if (age>=18 && age<120){
         console.log(`you are age is ${age} :you are eligible for voting.`);  
     }
-    if(age<=18 && age>0){
+    if(age<18 && age>0){
         console.log(`you are age is ${age} :you are not eligible for voting.` );
     }
-    if(age == 0 || age < 0 || age>=120) {
+    if (age <= 0 || age>=120) {
         console.log(`your age is ${age} :invalid data`);
      }
 }
@@ -36,7 +36,7 @@ var gradeCalculation = function(marks){
   if(marks<35 && marks>0){
   console.log(`Marks: ${marks} You are fail`);
   }
-  if(marks==0 || marks < 0 || marks > 100){
+  if(marks <= 0 || marks > 100){
     console.log(`Mark is ${marks} Please Provide the valid Marks`);
   }
 }
