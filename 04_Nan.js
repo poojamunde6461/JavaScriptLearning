@@ -13,3 +13,10 @@ console.log(`num is: ${num}`);
 
 var num = new Number("100"); 
 console.log(`num is: ${num}`);
+
+console.log(`-----------------------------------------------------------------------------------`);
+var add =  1 / 0;
+console.log(add);
+
+let number = null;
+console.log(number);

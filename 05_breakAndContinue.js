@@ -6,6 +6,7 @@ while (index<=10) {
    } 
    index++;
 }
+console.log(`---------------------------------------------------------------------------`);
 
 for (let index = 0; index < 20; index++) {
    console.log(index);
@@ -14,10 +15,11 @@ for (let index = 0; index < 20; index++) {
    }
     
 }
+console.log(`-----------------------------------------------------------------------------`);
 
-for (let index = 0; index < 6; index++) {
+for (let index = 0; index < 10; index++) {
     //console.log(index); // 0 1  2 3
-    if (index==3) {
+    if (index==4) {
       continue;
     }
     console.log(index);
