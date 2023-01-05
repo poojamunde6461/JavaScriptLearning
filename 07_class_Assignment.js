@@ -60,13 +60,13 @@ function traverseObject(College){
         }
     }
 }
-traverseObject(ibmr);
+traverseObject(c1);
 console.log(`--------------------------------------------------------------`);
-traverseObject(jspm);
+traverseObject(c2);
 console.log(`--------------------------------------------------------------`);
-traverseObject(indira);
+traverseObject(c3);
 console.log(`--------------------------------------------------------------`);
-traverseObject(dyPatil);
+traverseObject(c4);
 console.log(`-------------------------------------------------------------------------------------------------------`);
 
 
