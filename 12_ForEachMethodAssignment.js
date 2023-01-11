@@ -52,7 +52,7 @@ console.log(`-------------------------------------------------------------------
 console.log(`5. Find "IT" OR "HR" Department Employees Whose salary is grater than equal to 75000 `);
 const arrayOf_Employee = [emp_Anil, emp_Radha, emp_Rishi, emp_Sonali, emp_Monika, emp_viny, emp_mahi];
 arrayOf_Employee.forEach((Employee) => {
-    if((Employee.emp_dept =="IT" || Employee.emp_dept =="HR")&& Employee.emp_salary >= 75000){
+    if(Employee.emp_dept =="IT" || Employee.emp_dept =="HR" && Employee.emp_salary >= 75000){
         console.log(Employee.emp_id, Employee.emp_name, Employee.emp_dept, Employee.emp_company, Employee.emp_salary);
     }
 })
