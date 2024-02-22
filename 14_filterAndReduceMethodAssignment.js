@@ -55,10 +55,8 @@ filter.forEach( (emp) =>{
 
 console.log(`--------------------- [4. Find All Employees Whose Name starts with "A", "V", "M"] ---------------------`);
 const arrayEmp = [emp_Anil, emp_Radha, emp_Rishi, emp_Sonali, emp_Monika, emp_viny, emp_mahi];
-// const startsWith = 'A';
 const result = arrayEmp.filter( (obj) => obj.emp_name.startsWith('A') || obj.emp_name.startsWith('V') || obj.emp_name.startsWith('M'))
-    // return n.emp_name.match("A", "V", "M");
-    console.log(result);
+    // console.log(result);
 result.forEach( (name) =>{
     console.log(name);
 });
